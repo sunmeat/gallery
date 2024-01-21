@@ -1,4 +1,4 @@
-package com.sunmeat.thirdproject;
+package com.sunmeat.myapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,25 +9,11 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    Button b1;
-    Button b2;
-    Button b3;
-    Button b4;
-    Button b5;
-    Button b6;
-    Button b7;
-    Button b8;
+    Button b1, b2, b3, b4, b5, b6, b7, b8;
 
     Button but;
 
-    Animation accelerate;
-    Animation anticipate;
-    Animation anticipateOvershoot;
-    Animation bounce;
-    Animation cycle;
-    Animation decelerate;
-    Animation linear;
-    Animation overshoot;
+    Animation accelerate, anticipate, anticipateOvershoot, bounce, cycle, decelerate, linear, overshoot;
 
 
     @Override
@@ -68,31 +54,22 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         Button b = (Button) view;
-        switch (b.getId()) {
-            case R.id.button1:
-                but.startAnimation(accelerate);
-                break;
-            case R.id.button2:
-                but.startAnimation(anticipate);
-                break;
-            case R.id.button3:
-                but.startAnimation(anticipateOvershoot);
-                break;
-            case R.id.button4:
-                but.startAnimation(bounce);
-                break;
-            case R.id.button5:
-                but.startAnimation(cycle);
-                break;
-            case R.id.button6:
-                but.startAnimation(decelerate);
-                break;
-            case R.id.button7:
-                but.startAnimation(linear);
-                break;
-            case R.id.button8:
-                but.startAnimation(overshoot);
-                break;
-        }
+        int id = b.getId();
+        if (id == R.id.button1)
+            but.startAnimation(accelerate);
+        else if (id == R.id.button2)
+            but.startAnimation(anticipate);
+        else if (id == R.id.button3)
+            but.startAnimation(anticipateOvershoot);
+        else if (id == R.id.button4)
+            but.startAnimation(bounce);
+        else if (id == R.id.button5)
+            but.startAnimation(cycle);
+        else if (id == R.id.button6)
+            but.startAnimation(decelerate);
+        else if (id == R.id.button7)
+            but.startAnimation(linear);
+        else if (id == R.id.button8)
+            but.startAnimation(overshoot);
     }
 }
