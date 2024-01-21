@@ -1,7 +1,8 @@
-package com.sunmeat.thirdproject;
+package com.sunmeat.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
