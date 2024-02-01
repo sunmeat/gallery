@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Интеграция с Facebook</string>
+    <string name="app_id">249524008095035</string>
+    <string name="facebook_app_id">249524008095035</string>
+    <string name="fb_login_protocol_scheme">fb249524008095035</string>
+    <string name="facebook_client_token">eaa3b9554598c8ee8969821c52769535</string>
+    <string name="facebook_app_name">WallPosting</string>
+    <string name="cancelled">Отменено</string>
+    <string name="permission_not_granted">Невозможно выполнить выбранное действие, поскольку разрешения не были предоставлены.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Привет, %1$s!</string>
+    <string name="success">Всё ОК</string>
+    <string name="successfully_posted_post">Айди поста: %1$s</string>
+    <string name="error">Упс...</string>
+    <string name="status_update">Обновление статуса для %1$s в %2$s</string>
+    <string name="photo_post">Фото пост</string>
+    <string name="you_picked">Вы выбрали:</string>
+    <string name="no_friends_selected">&lt;Не выбраны друзья&gt;</string>
+    <string name="no_place_selected">&lt;Не выбрано место&gt;</string>
+    <string name="pick_seattle_place">Выберите место</string>
+    <string name="exception">Исключение: %1$s</string>
+    <string name="successfully_posted_photo">Ок</string>
+    <string name="button2_text">Выложить фото на стену</string>
+    <string name="button1_text">Выложить текст на стену</string>
+</resources>
