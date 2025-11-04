@@ -1,9 +1,8 @@
-package com.sunmeat.thirdproject;
+package com.sunmeat.spriteanimation;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Rect;
-
 import java.util.Random;
 
 class Sprite {
