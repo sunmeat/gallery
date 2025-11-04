@@ -1,4 +1,4 @@
-package com.sunmeat.thirdproject;
+package com.sunmeat.spriteanimation;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,9 +8,7 @@ import android.graphics.Color;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class GameView extends SurfaceView {
     private GameLoopThread gameLoopThread;
