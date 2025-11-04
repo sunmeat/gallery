@@ -1,4 +1,4 @@
-package com.sunmeat.thirdproject;
+package com.sunmeat.spriteanimation;
 
 import android.graphics.Canvas;
 
